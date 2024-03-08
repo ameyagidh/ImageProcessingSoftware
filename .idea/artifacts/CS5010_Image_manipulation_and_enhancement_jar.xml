@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CS5010-Image-manipulation-and-enhancement:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CS5010_Image_manipulation_and_enhancement_jar</output-path>
+    <root id="archive" name="CS5010-Image-manipulation-and-enhancement.jar">
+      <element id="module-output" name="CS5010-Image-manipulation-and-enhancement" />
+    </root>
+  </artifact>
+</component>

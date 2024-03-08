@@ -1,0 +1,105 @@
+load paris-small.png paris
+
+blue-component paris paris-blue
+save paris-blue.png paris-blue
+
+green-component paris paris-green
+save paris-green.png paris-green
+
+red-component paris paris-red
+save paris-red.png paris-red
+
+value-component paris paris-value
+save paris-value.png paris-value
+
+intensity-component paris paris-intensity
+save paris-intensity.png paris-intensity
+
+luma-component paris paris-luma
+save paris-luma.png paris-luma
+
+vertical-flip paris paris-vertical
+save paris-vertical.png paris-vertical
+
+horizontal-flip paris paris-horizontal
+save paris-horizontal.png paris-horizontal
+
+sepia paris paris-sepia
+save paris-sepia.png paris-sepia
+
+rgb-split paris paris-split-red paris-split-green paris-split-blue
+save paris-split-red.png paris-split-red
+save paris-split-green.png paris-split-green
+save paris-split-blue.png paris-split-blue
+
+brighten 20 paris paris-brighten
+save paris-brighten.png paris-brighten
+
+brighten -20 paris paris-darken
+save paris-darken.png paris-darken
+
+rgb-combine paris-combine paris-split-red paris-split-green paris-split-blue
+save paris-combine.png paris-combine
+
+blur paris paris-blur
+save paris-blur.png paris-blur
+
+sharpen paris paris-sharpen
+save paris-sharpen.png paris-sharpen
+
+color-correct paris paris-cc
+save paris-cc.png paris-cc
+
+compress 50 paris paris-50-compress
+save paris-50-compress.png paris-50-compress
+
+compress 80 paris paris-80-compress
+save paris-80-compress.png paris-80-compress
+
+levels-adjust 20 100 255 paris paris-adjust-1
+save paris-adjust-1.png paris-adjust-1
+
+levels-adjust 40 110 255 paris paris-adjust-2
+save paris-adjust-2.png paris-adjust-2
+
+sepia paris paris-sepia-split-30 split 30
+save paris-sepia-split-30.png paris-sepia-split-30
+
+luma-component paris paris-luma-split-70 split 70
+save paris-luma-split-70.png paris-luma-split-70
+
+sharpen paris paris-sharpen-split-50 split 50
+save paris-sharpen-split-50.png paris-sharpen-split-50
+
+histogram paris paris-histo
+save paris-histogram.png paris-histo
+
+histogram paris-cc paris-cc-histo
+save paris-cc-histo.png paris-cc-histo
+
+histogram paris-luma-split-70 paris-luma-split-70-histo
+save paris-luma-split-70-histo.png paris-luma-split-70-histo
+
+histogram paris-sharpen-split-50 paris-sharpen-split-50-histo
+save paris-sharpen-split-50-histo.png paris-sharpen-split-50-histo
+
+histogram paris-sepia-split-30 paris-sepia-split-30-histo
+save paris-sepia-split-30-histo.png paris-sepia-split-30-histo
+
+histogram paris-adjust-2 paris-adjust-2-histo
+save paris-adjust-2-histo.png paris-adjust-2-histo
+
+histogram paris-adjust-1 paris-adjust-1-histo
+save paris-adjust-1-histo.png paris-adjust-1-histo
+
+histogram paris-adjust-1 paris-adjust-1-histo
+save paris-adjust-1-histo.png paris-adjust-1-histo
+
+histogram paris-adjust-1 paris-adjust-1-histo
+save paris-adjust-1-histo.png paris-adjust-1-histo
+
+histogram paris-50-compress paris-50-compress-histo
+save paris-50-compress-histo.png paris-50-compress-histo
+
+histogram paris-80-compress paris-80-compress-histo
+save paris-80-compress-histo.png paris-80-compress-histo

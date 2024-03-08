@@ -1,0 +1,31 @@
+load res/paris-small.png paris
+
+blue-component paris paris-blue
+save test_images/actual/paris-blue.png paris-blue
+
+green-component paris paris-green
+save test_images/actual/paris-green.png paris-green
+
+value-component paris paris-value
+save test_images/actual/paris-value.png paris-value
+
+color-correct paris paris-cc
+save test_images/actual/paris-cc.png paris-cc
+
+histogram paris-cc paris-cc-histo
+save test_images/actual/paris-cc-histo.png paris-cc-histo
+
+levels-adjust 20 100 255 paris paris-adjust-1
+save test_images/actual/paris-adjust-1.png paris-adjust-1
+
+compress 50 paris paris-50-compress
+save test_images/actual/paris-50-compress.png paris-50-compress
+
+compress 80 paris paris-80-compress
+save test_images/actual/paris-80-compress.png paris-80-compress
+
+histogram paris paris-histo
+save test_images/actual/paris-histogram.png paris-histo
+
+sepia paris paris-sepia-split-30 split 30
+save test_images/actual/paris-sepia-split-30.png paris-sepia-split-30
