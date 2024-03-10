@@ -3,7 +3,7 @@
 The Java-based Image Manipulation Application enables users to perform various operations on images, including loading, saving, and applying image processing techniques through a user-friendly interface. Here's a summary of the recent enhancements:
 
 ## Demo
-<img width="1496" alt="Screenshot 2024-03-08 at 3 53 26 AM" src="https://github.com/ameyagidh/ImageProcessingSoftware/assets/65457905/b088c94e-29dd-4a36-bb1a-7fa66cf39c08">
+![MicrosoftTeams-image](https://github.com/ameyagidh/ImageProcessingSoftware/assets/65457905/f9020db6-2c64-40ba-a0d6-01da0406aac4)
 
 ![8ih4ya](https://github.com/ameyagidh/ImageProcessingSoftware/assets/65457905/cd0f7c07-29dc-4cff-9ab2-8dc0cb949689)
 
